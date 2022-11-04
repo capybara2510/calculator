@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 70vh;
+}
+
+.btn{
+    height: 70px;
+    width: 70px;
+    margin: 20px;
+    font-size: 45px;
+    background-color: whitesmoke;
+}
+
+.number{
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+}
+
+.number:hover{
+    background-color: greenyellow;
+}
+
+.operator{
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.operator:hover{
+    background-color: blue;
+}
+
+.decimal{
+    border: 2px solid pink;
+    border-radius: 10px;
+}
+
+.decimal:hover{
+    background-color: pink;
+}
+
+.equal{
+    border: 2px solid gold;
+    border-radius: 10px;
+}
+
+.equal:hover{
+    background-color: gold;
+}
+
+#clear-btn{
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+#clear-btn:hover{
+    background-color: red;
+}
+
+.first-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#screen{
+    width: 340px;
+    border: 2px solid black;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.previous{
+    font-size: 25px;
+}
+
+.current{
+    font-size: 35px;
+}
